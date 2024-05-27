@@ -1,14 +1,14 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-Name = KSA HUB - The name of the UI.
-HidePremium = false - Whether or not the user details shows Premium status or not.
-SaveConfig = true - Toggles the config saving in the UI.
-ConfigFolder = Config - The name of the folder where the configs are saved.
-IntroEnabled = true - Whether or not to show the intro animation.
-IntroText = Welcome to Ksa Hub V2 - Text to show in the intro animation.
-IntroIcon = https://cdn.discordapp.com/icons/1166430868756234372/3e012895d94438c05cd1a74fa49d44fd.webp?size=2048 - URL to the image you want to use in the intro animation.
-Icon = https://cdn.discordapp.com/icons/1166430868756234372/3e012895d94438c05cd1a74fa49d44fd.webp?size=2048 - URL to the image you want displayed on the window.
-CloseCallback = <function> - Function to execute when the window is closed.
+local Window = OrionLib:MakeWindow({Name = "KSA HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "Config"})
+Name = KSA HUB -- The name of the UI.
+HidePremium = false -- Whether or not the user details shows Premium status or not.
+SaveConfig = true -- Toggles the config saving in the UI.
+ConfigFolder = Config -- The name of the folder where the configs are saved.
+IntroEnabled = true -- Whether or not to show the intro animation.
+IntroText = Welcome to Ksa Hub V2 -- Text to show in the intro animation.
+IntroIcon = https://cdn.discordapp.com/icons/1166430868756234372/3e012895d94438c05cd1a74fa49d44fd.webp?size=2048 -- URL to the image you want to use in the intro animation.
+Icon = https://cdn.discordapp.com/icons/1166430868756234372/3e012895d94438c05cd1a74fa49d44fd.webp?size=2048 -- URL to the image you want displayed on the window.
+CloseCallback = <function> -- Function to execute when the window is closed.
 ]]
 local Window = OrionLib:MakeWindow({Name = "Ksa Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Config"})
 
@@ -24,48 +24,48 @@ Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 local Tab = Window:MakeTab({
-Name = Information - The name of the tab.
-Icon = scan-face - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Main Farm - The name of the tab.
-Icon = home - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Sea Event - The name of the tab.
-Icon = anchor - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Settings - The name of the tab.
-Icon = settings - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Server Stats - The name of the tab.
-Icon = activity - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Stats - The name of the tab.
-Icon = Plus-circle - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Player pvp - The name of the tab.
-Icon = baby - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Teleport - The name of the tab.
-Icon = palmtree - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Fruit Blox ESP - The name of the tab.
-Icon = apple - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Dungeon - The name of the tab.
-Icon = swords - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Race Trial V4 - The name of the tab.
-Icon = chevrons-right - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
+Name = Information -- The name of the tab.
+Icon = scan-face -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Main Farm -- The name of the tab.
+Icon = home -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Sea Event -- The name of the tab.
+Icon = anchor -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Settings -- The name of the tab.
+Icon = settings -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Server Stats -- The name of the tab.
+Icon = activity -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Stats -- The name of the tab.
+Icon = Plus-circle -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Player pvp -- The name of the tab.
+Icon = baby -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Teleport -- The name of the tab.
+Icon = palmtree -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Fruit Blox ESP -- The name of the tab.
+Icon = apple -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Dungeon -- The name of the tab.
+Icon = swords -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Race Trial V4 -- The name of the tab.
+Icon = chevrons-right -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
 Name = Shop - The name of the tab.
-Icon = shoping-cart - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Miscellaneous - The name of the tab.
-Icon = list-plus - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-Name = Hop Server - The name of the tab.
-Icon = wifi - The icon of the tab.
-PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
+Icon = shoping-cart -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Miscellaneous -- The name of the tab.
+Icon = list-plus -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
+Name = Hop Server -- The name of the tab.
+Icon = wifi -- The icon of the tab.
+PremiumOnly = false -- Makes the tab accessible to Sirus Premium users only.
 })
 local Options = Fluent.Options
 do
