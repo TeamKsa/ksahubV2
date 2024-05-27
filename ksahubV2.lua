@@ -1,7 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-
---[[
 Name = KSA HUB - The name of the UI.
 HidePremium = false - Whether or not the user details shows Premium status or not.
 SaveConfig = true - Toggles the config saving in the UI.
@@ -26,12 +24,6 @@ Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]]
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
---[[
 Name = Information - The name of the tab.
 Icon = scan-face - The icon of the tab.
 PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
@@ -74,7 +66,7 @@ PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
 Name = Hop Server - The name of the tab.
 Icon = wifi - The icon of the tab.
 PremiumOnly = false - Makes the tab accessible to Sirus Premium users only.
-]]
+})
 local Options = Fluent.Options
 do
 --------------------------------------------------------------------------------------------------------------------------------------------
